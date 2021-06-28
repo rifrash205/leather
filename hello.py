@@ -14,6 +14,6 @@ print(f'Module Type: {plc_info.ModuleTypeName}')
 
 state = plc.get_cpu_state()
 print(f'State: {state}')
-#print(plc.get_cpu_state)
+print(plc.get_cpu_state)
 
 db = plc.db_read(DB_NUMBER, START_ADDRESS, SIZE)
